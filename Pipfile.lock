@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "54f20e3116a76c5dcf921df53d81fecb1d6027fe03069ecdfdc1fe2aa6fac6a7"
+            "sha256": "6a416f802042cf7791cb48f62629a7bd4b25bce62aeb059b3d9f440c981dd1c4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -154,6 +154,14 @@
             ],
             "version": "==4.7.4"
         },
+        "requests": {
+            "hashes": [
+                "sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4",
+                "sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"
+            ],
+            "index": "pypi",
+            "version": "==2.22.0"
+        },
         "rfc3986": {
             "hashes": [
                 "sha256:0344d0bd428126ce554e7ca2b61787b6a28d2bbd19fc70ed2dd85efe31176405",
@@ -188,6 +196,13 @@
             ],
             "markers": "sys_platform != 'win32' and implementation_name == 'cpython'",
             "version": "==1.35"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e1f40673cdc",
+                "sha256:87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"
+            ],
+            "version": "==1.25.8"
         },
         "uvloop": {
             "hashes": [
